@@ -117,6 +117,6 @@ public class PassengersDestinations {
         Map<String, Integer> destinationsAndCount = passengersTacker.getDestinationsAndCountFor(passenger);
         assertThat(destinationsAndCount.get(destination))
                 .isNotNull()
-                .isEqualTo(2);
+                .isEqualTo(1);
     }
 }
